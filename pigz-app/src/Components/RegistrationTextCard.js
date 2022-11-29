@@ -1,4 +1,4 @@
-function MainText() {
+function RegistrationTextCard() {
     return (
         <div>
             <h1>Pigz: tudo que você precisa pra vender ainda mais!</h1>
@@ -9,4 +9,4 @@ function MainText() {
     )
 }
 
-export default MainText;
+export default RegistrationTextCard;

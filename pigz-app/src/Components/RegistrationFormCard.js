@@ -1,6 +1,6 @@
 import React from 'react';
 
-function RegistrationForm() {
+function RegistrationFormCard() {
     return (
         <div className='form-body'>
             <h1>Quero vender no Pigz</h1>
@@ -47,4 +47,4 @@ function RegistrationForm() {
     )
 }
 
-export default RegistrationForm
+export default RegistrationFormCard;
