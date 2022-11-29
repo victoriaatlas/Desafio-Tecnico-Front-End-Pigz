@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Components/Header';
 import RegistrationContent from './Page/RegistrationContent';
 import PigzLogo from './Components/PigzLogo'
-import AboutApp from './Page/FeaturesContent';
+import FeaturesContent from './Page/FeaturesContent';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <RegistrationContent />
       <PigzLogo />
-      <AboutApp />
+      <FeaturesContent />
     </div>
   );
 }
