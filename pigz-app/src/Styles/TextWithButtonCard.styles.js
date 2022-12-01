@@ -19,9 +19,11 @@ align-items: flex-start;
 `
 // list-style-type: none
 
-export const Ul = styled.ul`
-list-style-type: none;
-line-height: 40px;
+export const P = styled.p`
+line-height: 35px;
+text-align: left;
+color: #333333;
+margin: 30px 0;
 `
 
 export const SpanPrice = styled.h3`

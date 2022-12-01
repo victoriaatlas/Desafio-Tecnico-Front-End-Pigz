@@ -1,13 +1,13 @@
 import React from 'react';
 import { FormButton } from "../Styles/buttons.styles"
-import { GlobalForm, Form, Input, SectionText, Label, Div, H1, Span  } from "../Styles/RegistrationContent.styles"
+import { GlobalForm, Form, Input, SectionText, Label, Div, H1, Span1, Span2  } from "../Styles/RegistrationContent.styles"
 
 function RegistrationFormCard() {
     return (
         <GlobalForm className='form-container'>
             <SectionText>
                 <H1>Quero vender no Pigz</H1>
-                <Span>Dê o primeiro passo para aumentar suas vendas</Span>
+                <Span1>Dê o primeiro passo para aumentar suas vendas</Span1>
             </SectionText>
             <Form>
                 <Div>
@@ -42,9 +42,9 @@ function RegistrationFormCard() {
                         />
                     </Label>
                 </Div>
-                <Span>
+                <Span2>
                     Ao continuar, aceito que a Pigz entre em contato comigo por telefone,e-mail ou WhatsApp.
-                </Span>
+                </Span2>
                 <FormButton
                     type="button">
                     Continuar

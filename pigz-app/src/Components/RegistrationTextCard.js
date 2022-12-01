@@ -1,13 +1,18 @@
-import { TextContent, MainH1, P, TextAndLogo, Img } from "../Styles/RegistrationContent.styles"
+import { TextContent, H1Box, H1Text, P, TextAndLogo, Img } from "../Styles/RegistrationContent.styles"
 import hamburguer from "../images/burguer_2.png"
 
 function RegistrationTextCard() {
     return (
         <TextContent>
             <TextAndLogo>
-                <MainH1>
-                    <h1>Pigz: tudo que você precisa pra vender ainda mais!</h1>
-                </MainH1>
+                <H1Box>
+                    <H1Text>
+                        Pigz: tudo que <br />
+                        você precisa  <br />
+                        pra vender  <br />
+                        ainda mais!
+                    </H1Text>
+                </H1Box>
                 <Img src={hamburguer} alt='' />
             </TextAndLogo>
             <P>

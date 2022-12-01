@@ -1,5 +1,5 @@
 import { Button } from "../Styles/buttons.styles";
-import { TextWithButtonCard, Text, Ul, SpanPrice } from "../Styles/TextWithButtonCard.styles"
+import { TextWithButtonCard, Text, P, SpanPrice } from "../Styles/TextWithButtonCard.styles"
 
 function OnlinePaymentCard() {
     return (
@@ -7,13 +7,13 @@ function OnlinePaymentCard() {
             <Text>
             <h2>Pagamento On-line</h2>
             <span>Pagamento On-line</span>
-            <Ul>
-                <li>Aceite Pix e Cartão de Crédito</li>
-                <li>Antecipação Pix automática</li>
-                <li>Não dependa de maquininha de cartão</li>
-                <li>Segurança para receber pedidos</li>
-                <li>Agilidade para entregar</li>
-            </Ul>
+            <P>
+            Aceite Pix e Cartão de Crédito <br />
+            Antecipação Pix automática <br />
+            Não dependa de maquininha de cartão <br />
+            Segurança para receber pedidos <br />
+            Agilidade para entregar <br />
+            </P>
             <SpanPrice>2,99% por transação</SpanPrice>
             </Text>
             <Button type="button">

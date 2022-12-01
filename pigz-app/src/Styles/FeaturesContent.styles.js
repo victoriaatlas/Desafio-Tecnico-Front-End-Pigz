@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 // 
 export const DivMain = styled.div`
-margin-top: 6em;
-
+margin-top: 7em;
 `;
 
 export const Card = styled.div`

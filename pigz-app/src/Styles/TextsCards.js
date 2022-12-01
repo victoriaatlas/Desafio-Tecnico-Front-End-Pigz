@@ -7,6 +7,11 @@ width: 60%;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin: auto;
-padding: 50px;
+margin: 60px auto 60px auto;
 `;
+
+export const P = styled.p`
+color: #333333;
+line-height: 30px;
+font-size: 20px
+`

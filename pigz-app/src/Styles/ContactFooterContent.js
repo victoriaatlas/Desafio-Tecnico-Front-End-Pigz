@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Main = styled.div`
 background-color: #FAFAFA;
 color: #666666;
-margin: 40px, auto;
+margin: 20px, auto 30px, auto;
 `;
 
 export const Section = styled.section`
