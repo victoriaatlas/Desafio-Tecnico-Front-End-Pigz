@@ -1,13 +1,15 @@
 import logo from "../images/Pigz-Gestão-Logo.svg"
+import { HeaderDiv } from "../Styles/global.styles";
+import { ButtonHeader } from "../Styles/buttons.styles"
 
 function Header() {
     return (
-        <header>
+        <HeaderDiv>
             <img src={logo} alt="logo-pigz"/>
-            <button type="button">
+            < ButtonHeader type="button">
                 Já sou paceiro
-            </button>
-        </header>
+            </ ButtonHeader>
+        </HeaderDiv>
     )
 }
 

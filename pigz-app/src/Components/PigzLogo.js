@@ -1,10 +1,13 @@
 import extraLogo from "../images/Grupo 3535.svg"
-function MainText() {
+import { Div } from "../Styles/PigzLogo.styles"
+
+
+function PigzLogo() {
     return (
-        <div>
+        <Div>
            <img src={extraLogo} alt="logo divisor de pagina"/>
-        </div>
+        </Div>
     )
 }
 
-export default MainText;
+export default PigzLogo;

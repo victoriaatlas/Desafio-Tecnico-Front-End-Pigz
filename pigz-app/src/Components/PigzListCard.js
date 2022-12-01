@@ -1,20 +1,25 @@
+import { Button } from "../Styles/buttons.styles";
+import { TextWithButtonCard, Text, Ul, SpanPrice } from "../Styles/TextWithButtonCard.styles"
+
 function PigzListCard() {
     return (
-        <div>
+        <TextWithButtonCard>
+            <Text>
             <h2>Pigz</h2>
             <span>Tudo o que você precisa</span>
-            <ul>
+            <Ul>
                 <li>Pigz Marketplace</li>
                 <li>Página exclusiva</li>
                 <li>Pigz Gestão Desktop e Mobile</li>
                 <li>Gestão de entregadores</li>
                 <li>Vias de impressão personalizáveis</li>
-            </ul>
-            <span>R$199/mês</span>
-            <button type="button">
+            </Ul>
+            <SpanPrice>R$199/mês</SpanPrice>
+            </Text>
+            <Button type="Button">
                 Vender no Pigz agora
-            </button>
-        </div>
+            </Button>
+        </TextWithButtonCard>
     )
 }
 

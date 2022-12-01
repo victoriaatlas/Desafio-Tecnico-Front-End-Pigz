@@ -1,20 +1,25 @@
+import { Button } from "../Styles/buttons.styles";
+import { TextWithButtonCard, Text, Ul, SpanPrice } from "../Styles/TextWithButtonCard.styles"
+
 function OnlinePaymentCard() {
     return (
-        <div>
+        <TextWithButtonCard>
+            <Text>
             <h2>Pagamento On-line</h2>
             <span>Pagamento On-line</span>
-            <ul>
+            <Ul>
                 <li>Aceite Pix e Cartão de Crédito</li>
                 <li>Antecipação Pix automática</li>
                 <li>Não dependa de maquininha de cartão</li>
                 <li>Segurança para receber pedidos</li>
                 <li>Agilidade para entregar</li>
-            </ul>
-            <span>2,99% por transação</span>
-            <button type="button">
+            </Ul>
+            <SpanPrice>2,99% por transação</SpanPrice>
+            </Text>
+            <Button type="button">
                 Saiba mais
-            </button>
-        </div>
+            </Button>
+        </TextWithButtonCard>
     )
 }
 

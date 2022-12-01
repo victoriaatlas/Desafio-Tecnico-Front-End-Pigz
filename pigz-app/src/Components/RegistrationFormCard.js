@@ -1,49 +1,56 @@
 import React from 'react';
+import { FormButton } from "../Styles/buttons.styles"
+import { GlobalForm, Form, Input, SectionText, Label, Div, H1, Span  } from "../Styles/RegistrationContent.styles"
 
 function RegistrationFormCard() {
     return (
-        <div className='form-body'>
-            <h1>Quero vender no Pigz</h1>
-            <spam>Dê o primeiro passo para aumentar suas vendas</spam>
-            <form>
-                <span>Nome</span>
-                <label htmlFor="name">
-                    <input
-                        type="text"
-                        id="name"
-                        data-testid="common_register__input-name"
-                        name="name"
-                        placeholder="Leonercio Goesfeeld"
-                    />
-                </label>
-                <span>Email</span>
-                <label htmlFor="email">
-                    <input
-                        type="text"
-                        id="email"
-                        data-testid="common_register__input-email"
-                        name="email"
-                        placeholder="leonercio.goesfeeld@exemple.com"
-                    />
-                </label>
-                <span>Telefone</span>
-                <label htmlFor="name-phone">
-                    <input
-                        type="tel"
-                        id="phone"
-                        data-testid="common_register__input-number"
-                        name="number-phone"
-                    />
-                </label>
-                <spam>
+        <GlobalForm className='form-container'>
+            <SectionText>
+                <H1>Quero vender no Pigz</H1>
+                <Span>Dê o primeiro passo para aumentar suas vendas</Span>
+            </SectionText>
+            <Form>
+                <Div>
+                    <Label htmlFor="name">
+                        Nome
+                        <Input
+                            type="text"
+                            id="name"
+                            data-testid="common_register__input-name"
+                            name="name"
+                            placeholder="Leonercio Goesfeeld"
+                        />
+                    </Label>
+                    <Label htmlFor="email">
+                        E-mail
+                        <Input
+                            type="text"
+                            id="email"
+                            data-testid="common_register__input-email"
+                            name="email"
+                            placeholder="leonercio.goesfeeld@exemple.com"
+                        />
+                    </Label>
+                    <Label htmlFor="name-phone">
+                        Telefone
+                        <Input
+                            type="tel"
+                            id="phone"
+                            data-testid="common_register__input-number"
+                            name="number-phone"
+                            placeholder="(XX) 00000-0000"
+                        />
+                    </Label>
+                </Div>
+                <Span>
                     Ao continuar, aceito que a Pigz entre em contato comigo por telefone,e-mail ou WhatsApp.
-                </spam>
-                <button
+                </Span>
+                <FormButton
                     type="button">
                     Continuar
-                </button>
-            </form>
-        </div>
+                </FormButton>
+            </Form>
+        </GlobalForm>
     )
 }
 

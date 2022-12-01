@@ -1,7 +1,6 @@
-import './App.css';
+import '../src/Styles/App.css';
 import Header from './Components/Header';
 import RegistrationContent from './Page/RegistrationContent';
-import PigzLogo from './Components/PigzLogo'
 import FeaturesContent from './Page/FeaturesContent';
 import SupportPigz from './Page/SupportContent';
 import PigzListCard from './Components/PigzListCard';
@@ -12,15 +11,20 @@ import ContactFooterContent from './Page/ContactFooterContent';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <RegistrationContent />
-      <PigzLogo />
-      <FeaturesContent />
-      <SupportPigz />
-      <PigzListCard />
-      <OnlinePaymentCard />
-      <NumberContact />
-      <ContactFooterContent />
+      <header>
+        <Header />
+      </header>
+      <main>
+        <RegistrationContent />
+        <FeaturesContent />
+        <SupportPigz />
+        <PigzListCard />
+        <OnlinePaymentCard />
+        <NumberContact />
+      </main>
+      <footer>
+        <ContactFooterContent />
+      </footer>
     </div>
   );
 }

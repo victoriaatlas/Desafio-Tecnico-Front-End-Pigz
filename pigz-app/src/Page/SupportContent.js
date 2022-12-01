@@ -1,6 +1,7 @@
 import TextAboutMarketplace from "../Components/TextAboutMarketplace";
 import TextAboutSupportCard from "../Components/TextAboutSupportCard";
 
+
 function SupportPigz() {
   return (
     <div>
