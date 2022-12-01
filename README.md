@@ -5,6 +5,7 @@ Codigo desenvolvido por Victória Atlas durante o desafio tecnico proposto pela 
 Desenvolvedora: Victoria Atlas;
 
 Documentação: https://github.com/orangebr/estagio-front-pigz
+- A página foi desenvolvida para tela de dispositivos móveis!
 
 # Rodando o Projeto:
 
@@ -16,6 +17,8 @@ Para rodar o projeto você deverá fazer os seguintes passos:
  ```console
 $ git clone git@github.com:victoriaatlas/Desafio-Tecnico-Front-End-Pigz.git
 $ cd Desafio-Tecnico-Front-End-Pigz
+$ cd pigz-app
+$ npm install 
 $ npm run start
 ```
 <br/>
