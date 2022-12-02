@@ -12,15 +12,17 @@ function ContactUs() {
                 <Img src={contactUs} alt="" />
                 <H3>Fale conosco</H3>
             </Header>
-            <span>falecom@pigz.com.br</span>
-            <span>(95) 3198-3939</span>
-            <H3>Pigz nas redes</H3>
+            <main>
+                <span>falecom@pigz.com.br</span>
+                <span>(95) 3198-3939</span>
+                <H3>Pigz nas redes</H3>
                 <SectionLogos>
                     <Img src={LinkedIn} alt='' />
                     <Img src={Insta} alt='' />
                     <Img src={Face} alt='' />
                     <Img src={YouTube} alt='' />
                 </SectionLogos>
+            </main>
         </Section>
     )
 }

@@ -15,12 +15,12 @@ export const Button = styled.button`
 export const FormButton = styled.button`
   background-color: #FA641E;
   border-radius: 16px;
-  height: 45px;
-  width: 15em;
+  height: 50px;
+  width: 16em;
   border: 1px #FFFFFF;
   color:  #FFFFFF;
   font-size: 20px;
-  margin: 1em;
+  margin: 20px auto
 `;
 
 export const ButtonHeader = styled.button`

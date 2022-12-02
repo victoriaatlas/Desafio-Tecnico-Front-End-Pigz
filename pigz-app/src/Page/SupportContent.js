@@ -34,7 +34,6 @@ function SupportPigz() {
       setIndexComponent(0)
    }
    
-   console.log(indexC)
    const finderIndex = components.filter((c, index) => index === indexComponent && c )
 
    return setComponent(finderIndex);
@@ -44,10 +43,10 @@ function SupportPigz() {
   return (
     <div>
       <Section>
-        <Input type="button" onClick={ () => setComponent(components[0]) }/>
-        <Input type="button" onClick={ () => setComponent(components[1]) }/>
-        <Input type="button" onClick={ () => setComponent(components[2]) }/>
-        <Input type="button" onClick={ () => setComponent(components[3]) }/>
+        <Input className="input-button" value=" " type="button" onClick={ () => setComponent(components[0]) }/>
+        <Input className="input-button" value=" " type="button" onClick={ () => setComponent(components[1]) }/>
+        <Input className="input-button" value=" " type="button" onClick={ () => setComponent(components[2]) }/>
+        <Input className="input-button" value=" " type="button" onClick={ () => setComponent(components[3]) }/>
       </Section>
       <Button onClick={ () => renderContentPage(indexComponent + 1) }>
       <section>{ component }</section>

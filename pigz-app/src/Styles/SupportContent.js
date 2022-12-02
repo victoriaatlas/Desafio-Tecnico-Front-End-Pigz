@@ -39,9 +39,16 @@ export const Section = styled.section`
 `
 
  export const Input = styled.input`
-  height: 5px;
+  height: 6px;
   border: 1px #FFFFFF;
   background-color: #EEEEEE;
-  width: 80px;
-  border-radius: 20px;
+  width: 85px;
+  border-radius: 45px;
+  &:hover,
+  &:focus {
+    background-color: #FF881F;
+  }
+  &:active {
+    background-color: #FF881F;
+  }
 `
