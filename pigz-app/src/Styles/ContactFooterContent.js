@@ -11,7 +11,7 @@ export const Section = styled.section`
   flex-direction: column;
   align-items: flex-start;
   padding: 10px;
-  margin: 40px auto;
+  margin: 20px auto;
   width: 90%;
   line-height: 45px;
 `;
