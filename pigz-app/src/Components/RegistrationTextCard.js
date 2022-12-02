@@ -13,7 +13,7 @@ function RegistrationTextCard() {
                         ainda mais!
                     </H1Text>
                 </H1Box>
-                <Img src={hamburguer} alt='' />
+                <Img src={ hamburguer } alt='logo' />
             </TextAndLogo>
             <P>
                 Temos uma equipe ansiosa para cadastrar seus produtos no Pigz Marketplace e deixar sua loja prontinha para iniciar as vendas.

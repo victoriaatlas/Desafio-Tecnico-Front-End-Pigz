@@ -7,22 +7,22 @@ import { Card, CardSection } from "../Styles/FeaturesContent.styles"
 function FeaturesCards() {
     return(
         <CardSection>
-                <Card>
+                <Card className="card">
                     <img src={marketplaceLogo} alt="" />
                     <h3>Marketplace</h3>
                     <spam>Pra sua loja vender mais</spam>
                 </Card>
-                <Card>
+                <Card className="card">
                     <img src={appLogo} alt="" />
                     <h3>É fácil e rápido</h3>
                     <spam>Fazer um pedido no Pigz</spam>
                 </Card>
-                <Card>
+                <Card className="card">
                     <img src={managementLogo} alt="" />
                     <h3>Pigz Gestão</h3>
                     <spam>Você no controle, sempre</spam>
                 </Card>
-                <Card>
+                <Card className="card">
                     <img src={paymentLogo} alt="" />
                     <h3>Vias de impressão</h3>
                     <spam>Personalizáveis</spam>
