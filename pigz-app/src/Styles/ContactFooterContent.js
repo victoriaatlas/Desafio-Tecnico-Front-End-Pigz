@@ -4,6 +4,7 @@ export const Main = styled.div`
   background-color: #FAFAFA;
   color: #666666;
   margin: 20px, auto 30px, auto;
+  align-items: flex-start;
 `;
 
 export const Section = styled.section`
@@ -18,7 +19,7 @@ export const Section = styled.section`
 
 export const SectionLogos = styled.section`
   display: flex;
-  flex-direction: wrap;
+  flex-direction: row;
   align-items: flex-start;
 `;
 
@@ -35,12 +36,17 @@ export const A = styled.a`
 // ContactUs
 export const Header = styled.div`
   display: flex;
-  flex-direction: wrap;
+  flex-direction: row;
   align-items: center;
 `;
 
 export const H3 = styled.h3`
-  margin: 0
+  margin: 0;
+`;
+
+export const H3A = styled.h3`
+  margin: 0  0  0 -140px;
+  align-text: flex-start;
 `;
 
 // FooterDetails
