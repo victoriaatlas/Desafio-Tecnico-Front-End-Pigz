@@ -27,6 +27,16 @@ function RegistrationContent() {
         "Concluir",
     ];
 
+    useEffect(() => {
+        const verifyIndex = () => {
+            setForms(components[0])
+         }
+     
+        verifyIndex()
+       }, [])
+     
+       
+
     const handleClick = (index) => {
         setIndexForms(index)
         if (index > 2) {

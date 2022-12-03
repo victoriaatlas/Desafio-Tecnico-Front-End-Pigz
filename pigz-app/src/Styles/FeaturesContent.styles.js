@@ -23,17 +23,3 @@ export const CardSection = styled.section`
   align-items: center;
   justify-content: space-around;
 `;
-
-
-
-/* 
-const Wrapper = styled.div`
-  &:hover .my__unique__button__class-asdf123 {
-    display: none;
-  }
-`
-
-<Wrapper>
-  <Button className="my__unique__button__class-asdf123" />
-</Wrapper>
- */
